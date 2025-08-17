@@ -1,0 +1,32 @@
+# Build directories
+build/
+cmake-build-*/
+
+# Generated build artifacts
+*.uf2
+*.bin
+*.hex
+*.elf
+*.map
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# Backup and temp files
+*~
+*.swp
+*.swo
+.DS_Store
+
+# VS Code
+.vscode/
+
+# CLion / JetBrains IDEs
+.idea/
+
+# Logs
+*.log
